@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<body>
+		<select id="se">
+			<option value="-1">请选择</option>
+			<option value="0">北京</option>
+			<option value="1">山东</option>
+			<option value="2">河北</option>
+		</select>
+		<select id="see">
+			<option value="-1">请选择</option>
+		</select>
+		<select id="see1">
+			<option value="-1">请选择</option>
+		</select>
+</body>
+<script type="text/javascript">
+		var se=document.getElementById("se");
+		var see=document.getElementById('see');
+		var cyti=[
+			['朝阳','海淀','房山','西城','昌平','顺义'],
+			['济南','青岛','烟台','威海','日照'],
+			['石家庄','唐山','邢台','承德','邯郸','衡水','张家口','秦皇岛','保定','廊坊','沧州']
+		    ];
+		  var cz=[
+		  	["11","12","13"],
+		  	["22","23","24"],
+		  	["25","26","27"],
+		  ]
+	var num="";
+	se.onchange=function (){
+		if (se.value==-1) {
+					see.innerHTML='<option value="-1">请选择</option>';
+		}
+		for (var i=0; i<cyti[se.value].length; i++) {
+			num+="<option value="+i+">"+cyti[se.value][i]+"</option>";
+		}
+		see.innerHTML=num;
+	}
+	var num1="";
+	see.onchange=function (){
+		for(var i=0; i<cz[[se.value][i]][i].length; i++){
+			num1="<option value="+i+">"+cz[[se.value][i]][i]+"</option>"+num;
+		}
+	
+	see1.innerHTML=num1;
+}
+</script>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<select id="se">
+			<option value="-1">请选择</option>
+			<option value="0">北京</option>
+			<option value="1">山东</option>
+			<option value="2">河北</option>
+		</select>
+		<select id="see">
+			<option value="-1">请选择</option>
+		</select>
+		<select id="see1">
+			<option value="-1">请选择</option>
+		</select>
+		<!--<div id="ds">
+			
+		</div>-->
+	</body>
+	<script type="text/javascript">
+		var se=document.getElementById("se");
+		var see=document.getElementById('see');
+		var see1=document.getElementById('see1');
+		var cyti=[
+			['朝阳','海淀','房山','西城','昌平','顺义'],
+			['济南','青岛','烟台','威海','日照'],
+			['石家庄','唐山','邢台','承德','邯郸','衡水','张家口','秦皇岛','保定','廊坊','沧州']
+		    ];
+		var cj=[
+				['济南','青岛','烟台','威海','日照'],
+				['济1南','青1岛','烟1台','威1海','日1照']
+
+
+		];
+	// alert(cyti[0][6][1]);
+		// var cam=cyti[0][0]+cyti[0][1]+cyti[0][2]+cyti[0][3]+cyti[0][4];
+		// console.log(cam);
+//		ds.innerHTML='<h1>'+'你好啊美女'+'</h1>';
+		se.onchange=function (){
+			var nm='';
+			if(se.value==-1){
+				see.innerHTML='<option value="-1">请选择</option>';
+			}
+			for (var i = 0; i < cyti[se.value].length; i++) {
+				nm+='<option value='+i+'>'+cyti[se.value][i]+'</option>';
+
+			}
+			see.innerHTML=nm;
+			var cm='';
+			for (var i = 0; i < cj[see.value].length; i++) {
+				cm=cm+'<option value='+i+'>'+cj[see.value][i]+'</option>';
+
+			}
+			see1.innerHTML=cm;
+			see.onchange=function (){
+				var cm='';
+				for (var i = 0; i < cj[see.value].length; i++) {
+					cm=cm+'<option value='+i+'>'+cj[see.value][i]+'</option>';
+
+				}
+				see1.innerHTML=cm;
+			}
+
+		}
+		
+
+	</script>
+</html>

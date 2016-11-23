@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+
+	select{width: 100px;
+		height:30px;
+		background: #ccc;
+	}
+	</style>
+</head>
+<body>
+	<select id="se">
+		<option value="-1">请选择</option>
+		<option value="0">北京</option>
+		<option value="1">山东</option>
+		<option value="2">河北</option>
+	</select>
+	<select id="see">
+		<option value="-1">请选择</option>
+	</select>
+	<select id="sa">
+		<option value="-1">请选择</option>
+	</select>
+	<select id="sb">
+		<option value="-1">请选择</option>
+	</select>
+	
+</body>
+<script type="text/javascript">
+	var se=document.getElementById("se");
+	var see=document.getElementById("see");
+	var sa=document.getElementById("sa");
+	var sb=document.getElementById("sb");
+	// alert(se);
+		var cyti=[
+			['朝阳','海淀','房山','西城','昌平','顺义'],
+			['济南','青岛','烟台','威海','日照'],
+			['石家庄','唐山','邢台','承德','邯郸','衡水','张家口','秦皇岛','保定','廊坊','沧州']
+		    ];
+		 var cz=[
+		 	["11","12","13","14","15","16"],
+		 	["22","23","24"],
+		 	["25","26","27"],
+		 ]
+		 var cc=[
+		 ["下洼","古城","冯家","大高","沾化"],
+		 ];
+		   se.onchange=function (){
+		   		var num="";
+		   		if (se.value=="-1") {
+		   				see.innerHTML="<option value='-1'>请选择</option>";
+		   		}
+		   		for (var i = 0; i < cyti[se.value].length; i++) {
+		   			num+="<option value="+i+">"+cyti[se.value][i]+"</option>";
+		   		}
+		   		see.innerHTML=num;
+		   }
+		   see.onchange=function (){
+		   	var cm="";
+		   	for (var i = 0; i <cz[see.value].length; i++) {
+		   		cm+="<option value="+i+">"+cz[see.value][i]+"</option>";
+		   	}
+		   		sa.innerHTML=cm;
+
+		   }
+		   sa.onchange=function (){
+		   	var cm1="";
+		   	for (var i = 0; i <cc[sa.value].length; i++) {
+		   		cm1+="<option value="+i+">"+cc[sa.value][i]+"</option>";
+		   	}
+		   		sb.innerHTML=cm1;
+
+		   }
+
+
+</script>
+</html>

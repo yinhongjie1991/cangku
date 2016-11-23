@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<select id="se">
+			<option value="-1">请选择</option>
+			<option value="0">北京</option>
+			<option value="1">山东</option>
+			<option value="2">河北</option>
+		</select>
+		<select id="see">
+			<option value="-1">请选择</option>
+		</select>
+		<select id="see1">
+			<option value="-1">请选择</option>
+		</select>
+	
+</body>
+<script type="text/javascript">
+		var se=document.getElementById("se");
+		var see=document.getElementById("see");
+		var cyti=[
+			['朝阳','海淀','房山','西城','昌平','顺义'],
+			['济南','青岛','烟台','威海','日照'],
+			['石家庄','唐山','邢台','承德','邯郸','衡水','张家口','秦皇岛','保定','廊坊','沧州']
+		    ];
+		
+		se.onchange=function (){
+			var num="";
+			if (se.value==-1) {
+
+				see.innerHTML="<option value='-1'>请选择</option>";
+			}
+				for(var i=0;i<cyti[se.value].length;i++){
+				 num+="<option value="+i+">"+cyti[se.value][i]+"</option>";
+				}
+				see.innerHTML=num;
+		}
+			
+</script>
+</html>

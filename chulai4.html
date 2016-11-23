@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			#ds,#dss,#dss1{
+				width: 500px;
+				height: 100px;
+				background: red;
+				margin-left: -450px;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="ds">
+			
+		</div>
+		<div id="dss">
+			
+		</div>
+		<div id="dss1">
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+		var ds=document.getElementById("ds");
+		var dss=document.getElementById("dss");
+		var dss1=document.getElementById("dss1");
+		var tim=null,tim2=null,tim3=null;
+		var n=-450,n2=-450,n3=-450;
+		function set(a,b,c){
+			a.onmouseover=function (){
+				clearInterval(b);
+				b=setInterval(function (){
+					c++;
+					if (c>=0) {
+						clearInterval(b);
+						c=0;
+					}
+					a.style.marginLeft=c+"px";
+				},1)
+
+			}
+			a.onmouseout=function (){
+				clearInterval(b);
+				b=setInterval(function (){
+					c--;
+					if (c<=-450) {
+						clearInterval(b);
+						c=-450;
+					}
+					a.style.marginLeft=c+"px";
+				},1)
+
+			}
+		}
+		set(ds,tim,n);
+		set(dss,tim2,n2);
+		set(dss1,tim3,n3);
+	</script>
+	</html>

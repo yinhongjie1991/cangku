@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			input{
+				font-size: 55px;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="text" id="te" value=''/>
+		<!--<input type="text" name="" id="" value="" />-->
+		<input type="button"  id="but" value="判断平闰" />
+	</body>
+	<script type="text/javascript">
+		var but=document.getElementById("but");
+		var te=document.getElementById("te");
+		alert(te.value);
+		but.onclick=function (){
+			// var year=te.value;
+			// alert(va);
+		if(year%4==0&&year%100!==0){
+				alert('闰年');
+				
+		}else if(year%400==0){
+			alert('闰年');
+		}else{
+				alert('平年');
+		}
+//			if((year%4==0&&year%100!==0)||year%400==0){
+//				alert('闰年');
+//			}else {
+//				alert('平年');
+//			}
+//			(year%4==0&&year%100!==0)||year%400==0?alert('闰年'):alert('平年');
+		}
+	</script>
+</html>

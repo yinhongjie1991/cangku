@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;font-size: 65px;}
+		</style>
+	</head>
+	<body>
+		<div id="ds">
+			
+		</div>
+		<div id="ss">
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+	var dg=document.getElementById("ds");
+	var ss=document.getElementById("ss");
+//		var a=1;
+//		alert(typeof(a));// number;
+//		alert(typeof(a.toString()));
+
+		var ar=['g','c','b','a','d','m','h','k'];
+//		console.log(ar);
+		
+//		ar.sort();
+//		console.log(ar);
+		var kl=[1,22,89,77,11,78,2,11,32,78,78,77,7,15,3,41,1,25,89,76];
+//		console.log(kl);
+		// kl.sort(function (a,b){
+		// 	return a-b;
+		// });//如果数值型数组直接调用sort方法他是跟你比的字符串的大小
+//		kl.join();
+		// dg.innerHTML=kl;
+		// console.log(kl);
+		// console.log(kl[kl.length-1]);
+		 // // console.log(kl[kl.length-1]);数组元素排序
+		 // kl.sort( function(){
+		 // 	return a-b;
+		 // })
+	// for (var i = 0; i < kl.length; i++) {
+	// 	for(var j=i+1;j<kl.length;j++){
+	// 		if (kl[j]==kl[i]) {
+	// 			kl.splice(j,1);
+	// 			j--;
+	// 		}
+	// 	}
+		
+	// }
+	// console.log(kl);
+	
+function max(ma){
+	var maxx=ma[0];
+	for (var i = 1; i < ma.length; i++) {
+		if (ma[i]>maxx) {
+			maxx=ma[i];
+
+		}
+	}
+	return(maxx);
+}
+alert(max(kl));
+
+
+
+	</script>
+</html>
