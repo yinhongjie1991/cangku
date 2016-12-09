@@ -1,0 +1,154 @@
+/*内容样式*/
+/*body{height: 4000px;}*/
+.cen_top{
+	width: 100%;
+	background: #ccc;
+}
+.single{
+	width: 247px;
+	margin:0 auto;
+	padding: 20px 0;
+}
+.single span{
+	font: 22px '微软雅黑';
+	color: #3DB4E5;
+}
+.xinxi{
+	width: 1195px;
+	overflow: hidden;
+	/*height: 1000px;*/
+	margin:18px auto;	
+}
+.xin_le{
+	width: 167px;
+	float: left;
+	padding: 19px 0;
+	background: #F7F7F7;
+}
+#xin_list li{
+	font: 22px '微软雅黑';
+	color:#6C6C6C;
+	border-bottom:1px solid #ccc;
+	padding: 5px 0;
+	text-align: center;
+}
+.xin_ri{
+	width: 1007px;
+	float: right;
+}
+.desc{
+	width: 100%;
+	padding-bottom: 3px;	
+}
+.desc span{font: 22px '微软雅黑';}
+.xin_collect{
+	width: 100%;
+	border: 2px solid #ccc;
+	border-radius:2px; 
+	padding: 37px 0;
+	float: right;
+}
+.name{
+	width: 717px;
+	text-align: right;
+	margin-bottom:35px;
+}
+#tty{width: 458px;
+	padding: 5px 0 4px 4px;
+	border: 0;
+	background: #F7F7F7;
+font: 22px '微软雅黑';}
+.hu{
+	font: 20px '微软雅黑';
+	color: #9A9A9A;
+}
+.bix{color: #FF696B;margin-left: 6px;}
+.name1{width: 560px;
+	text-align: right;
+	padding: 0 16px 0 0;}
+.sec{width: 129px;
+	font: 20px '微软雅黑';
+	border: 0;
+	padding: 8px 0;
+background: #F7F7F7;}
+.sec1{margin-left: 37px;}
+.name2{
+width: 938px;
+margin-top: 32px;
+margin-bottom: 33px;
+overflow: hidden;
+}
+.logo_show{
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-right: 19px;
+}
+.sop{
+	margin-bottom: 12px;
+	display: inline-block;
+}
+.ppi{
+width: 210px;
+padding: 3px 0 0 0;
+float: right;
+}
+.ppi1{
+	width: 200px;
+	float: right;
+	padding-top: 15px;
+	margin-left: 16px;
+}
+.ppi1 span,.ppi span{
+	font: 16px '微软雅黑';
+}
+.lol{
+width: 112px;
+height: 112px;
+float: right;
+}
+.lol img{
+	width: 112px;
+	height: 112px;
+}
+.put{font: 22px '微软雅黑';
+color: #fff;
+background: #0EA8E4;
+border-radius: 5px;
+padding: 7px 25px;
+border: 0;}
+.siz{color: #FE7172;}
+.remo{color: #BEBEBE;margin-top: 12px;
+	margin-bottom: 12px;
+display: inline-block;}
+.llo{
+	width: 112px;
+	float: right;
+	font: 22px '微软雅黑';
+}
+.lx{width: 698px;
+text-align: right;
+margin-bottom: 33px;}
+.lx_te{
+	width:457px;
+	border: 0;
+	background: #F7F7F7;
+	font: 20px '微软雅黑' ;
+	color: #B0B0B0;
+	padding: 8px 0;
+}
+.lia{font: 20px '微软雅黑';
+color: #000;}
+.lia1{margin-right: 20px;}
+.xiug1{width: 548px;
+	/*text-align: right;*/
+	margin-top: 59px;}
+#ww{
+	float: right;
+border: 0;
+background: #DB6968;
+font: 22px '微软雅黑';
+padding: 5px 10px;
+color: #fff;}

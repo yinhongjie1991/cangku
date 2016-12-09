@@ -1,0 +1,120 @@
+.cent{
+	width: 100%;
+	height: 500px;
+	background: url(../img/ybanner.jpg) 0 0 no-repeat;
+}
+.cen_mid{
+	width: 1210px;
+	margin:0 auto;
+}
+.fir{
+	width: 1210px;
+	height: 67px;
+	background:url(../img/y001_0.png);
+}
+.fir_title{
+	width:265px;
+	height: 66px;
+	margin:0 auto;
+	background:url(../img/卡斯文化y001_04.png) 0 19px no-repeat;
+}
+.jies{
+	width: 1095px;
+	height: 91px;
+	margin:0 auto;
+}
+.tou{
+	font: 16px '微软雅黑';
+	/*letter-spacing: 8px;*/
+}
+.work{
+	position: relative;
+}
+.diw{
+	width: 100%;
+	height: 62px;
+	overflow: hidden;
+	background-color: #ccc;
+	opacity: 0.6;
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+
+}
+.biao{
+	display: inline-block;
+	width: 19px;
+	height: 18px;
+	background:url(../img/卡斯文化y001_11.png);
+}
+.diw_le{
+position: absolute;
+bottom: 22px;
+left: 116px;
+}
+.diw_le span{
+	color: #1E1B1A;
+	font: 16px '微软雅黑';
+}
+.diw_ri{
+	color: #1E1B1A;
+	font: 16px '微软雅黑';
+	position: absolute;
+	bottom: 22px;
+	right: 94px;
+}
+.diw_ri{
+width:440px;
+
+}
+.show{padding-top: 35px;}
+.show_mi{
+	width: 1102px;
+	margin:0 auto; 
+	overflow: hidden;
+}
+.show_mi li{
+	width: 533px;
+	float: left;
+	cursor: pointer;
+}
+.yp{margin-right: 30px;}
+.yp1{
+	margin-bottom: 20px;
+}
+.des{
+	width: 480px;
+	padding:17px 0 17px 53px;
+	font: 20px '微软雅黑';
+	color: #666;	
+}
+.yp{border-bottom: 2px solid red;}
+.ffd{
+	width: 480px;
+	padding:15px 0 14px 53px;	
+}
+.ko{
+	display: inline-block;
+	width: 79px;
+	height: 3px;
+	background-color:  red;
+}
+.lin{
+	font: 24px '微软雅黑';
+}
+.gt{
+	border-bottom: 2px solid #2ACDDC;
+}
+.comon{
+	width:520px; 
+	height: 189px;
+	position: relative;
+	overflow: hidden;
+}
+#wsh img{
+	width: 533px;
+	height: 191px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

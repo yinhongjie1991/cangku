@@ -1,0 +1,131 @@
+/*内容部分*/
+.cen{
+	/*height: 3000px;*/
+}
+.cen_top{
+	width: 1200px;
+	/*height: 1400px;*/
+	margin:0 auto;
+	overflow: hidden;
+}
+.cen_topit{
+	border-bottom: 1px solid #ECECEF;
+	color: #000;
+	font: 20px '微软雅黑';
+	padding: 17px 0;
+}
+.net{text-align: right;
+font: 14px '微软雅黑';
+color: #AFAFAF;
+padding: 12px 0;}
+.acti span{
+display: inline-block;
+font: 18px '微软雅黑';
+padding: 16px 39px;
+}
+.acti{border-top: 1px solid #17ABE4;}
+.join{background: #0EA8E3;
+color: #fff;}
+.pl{width: 1174px;
+margin-top: 36px;
+overflow: hidden;}
+.ple{
+	width: 210px;
+	height:300px;
+	float: left;
+	position: relative;
+}
+.ple p{
+	position: absolute;
+	top: 108px;
+	left: 15px;
+}
+.bao{
+	display: inline-block;
+	width: 38px;
+	height: 46px;
+	background:url(../img/yi.png)0 0 no-repeat;
+	vertical-align: middle;
+}
+.bao1{
+	font: 16px '微软雅黑';
+	color: #3E3E3E;
+}
+.bao2{font: 20px '微软雅黑';
+color:#3A6480;}
+.pil{width: 693px;	
+float: left;
+position: relative;
+border-radius: 8px;
+border: 1px solid #CFCFCF;}
+#ttp{height: 100px;
+font: 30px '微软雅黑';
+color: #FF413F;
+text-align: center;
+line-height: 100px;}
+.ttp1{
+	width: 550px;
+	height: 56px;
+	padding-left: 78px;
+	margin-bottom: 47px;
+	overflow: hidden;	
+}
+.te{width: 454px;
+	background-color: #F5F5F5;
+	height: 52px;
+border: none;}
+.gos{
+	color: #AAAAAA;
+	font: 14px '微软雅黑';	
+}
+.xi{
+	color: #FFC6A7;
+	font-size: 16px;
+	margin-left: 12px;
+}
+.go{margin-right: 23px;}
+.ttp2{ 
+padding:13px 53px;
+border-top: 1px solid #ccc;
+margin:0 auto;
+width: 500px;
+text-align: right;
+color: #F39D64;
+font: 14px '微软雅黑';}
+.ttp41{width: 180px;
+margin:30px auto;
+}
+#tte1{
+	border: 0;
+width: 180px;
+padding: 17px 0;
+background:#DB6968;
+color: #fff;
+border-radius: 8px;
+font: 20px '微软雅黑';
+text-align: center;}
+.wei{
+	width: 153px;
+	height: 337px;
+	float: right;
+	text-align: center;
+	border-left: 1px solid #ccc;
+	position: relative;
+	background: url(../img/sao.png) 30px center no-repeat;
+}
+.bm{
+padding: 0px 5px;
+position: absolute;
+bottom: 59px;
+left: 38px;
+}
+.bm span{
+	font: 14px '微软雅黑';
+	color: #7C7C7C;
+}
+.diw{
+	position: absolute;
+	right: -190px;
+	bottom:213px; 
+	overflow: hidden;
+}

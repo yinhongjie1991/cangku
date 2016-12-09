@@ -1,0 +1,68 @@
+/*底部css*/
+.footer{
+	width: 100%;
+	height: 320px;
+	background-color:#1F2932;
+	margin-top: 57px;
+}
+.foot{
+	width: 1137px;
+	height: 248px;
+	margin:0 auto;
+	padding:36px 0 36px 41px;
+	overflow: hidden;
+	position: relative;
+}
+.foot_item {
+width: 296px;
+/*height: 236px;*/
+float: left;}
+.foot_item li a{
+	color: #fff;
+	font: 16px '微软雅黑';
+}
+#fy{
+	font: 20px '微软雅黑';
+	margin-bottom: 47px;
+}
+#fy a{color: #0992CB;
+font: 20px "微软雅黑";}
+.llt{margin-bottom: 15px;}
+.foot_item2{
+	width: 260px;
+	/*height: 248px;*/
+	float: left;
+}
+.weixin{display: inline-block;
+width: 28px;
+height: 22px;
+margin-left: 5px;
+vertical-align: middle;
+background:url(../img/ywi.png)0 0 no-repeat;}
+.diy a{color: #03ACEF;
+font: 20px '微软雅黑';}
+.ddy{margin-top: 47px;
+margin-bottom: 44px;}
+.dfy{font: 16px '微软雅黑';
+color: #F1F1F1;
+margin-bottom: 19px;}
+.ddf{
+	color:#F1F1F1;
+	font: 16px '微软雅黑'; }
+#box{
+	position: absolute;
+	bottom: 86px;
+	right: 128px;
+	width: 374px;
+	height: 103px;
+	padding: 19px 0 0 76px;
+	border-left: 2px solid #565A5E;
+}
+.box_li{
+	font: 12px '微软雅黑';
+	color: #F9F9F9;
+}
+.llp{margin-bottom: 23px;}
+.ffg:hover {
+	color: #0992CB;
+}
